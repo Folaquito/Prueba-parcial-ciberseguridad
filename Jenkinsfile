@@ -5,7 +5,7 @@ pipeline {
         PROJECT_NAME = "pipeline-test"
         SONARQUBE_URL = "http://sonarqube:9000"
         SONARQUBE_TOKEN = "squ_0649e071d6f44196d71bb7278f76680e61c8d1d7"
-        TARGET_URL = "http://172.23.41.49:5000"
+        TARGET_URL = "http://127.0.0.1:5000/"
     }
 
     stages {
